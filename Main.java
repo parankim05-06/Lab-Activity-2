@@ -1,7 +1,7 @@
 public class Main{
 
       public static void performService(Serviceable item){
-         item.service();
+       item.service();
       }
       
       public static void printDetails (Vehicle vehicle){
@@ -9,10 +9,10 @@ public class Main{
       }
       
       public static void printMovement(Vehicle vehicle) {
-      vehicle.moveForward();
-      vehicle.moveBackward();
-      vehicle.moveLeft();
-      vehicle.moveRight();
+       vehicle.moveForward();
+       vehicle.moveBackward();
+       vehicle.moveLeft();
+       vehicle.moveRight();
       } 
       
       public static void main (String[] args){
@@ -32,7 +32,7 @@ public class Main{
          Car car = new Car("BYD", "Seagull", 2023, 4);
          Motorcycle motor = new Motorcycle("Honda", "Beat", 2023, "Automatic");
          Truck truck = new Truck("Isuzu", "Wingvan", 2011, 12); 
-         Printer printer = new Printer("Canon", "Pixma", "Laser");
+         Printer printer = new Printer();
       
          printDetails(car);
             System.out.println();

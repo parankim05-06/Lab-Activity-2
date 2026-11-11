@@ -31,7 +31,7 @@ public class Truck extends Vehicle implements Serviceable {
   public void moveRight(){
     System.out.println("The Truck moves Right");
   }
-   public void service(){
-   System.out.print("Inspect cargo brakes.");
+  public void service(){
+    System.out.print("Inspect cargo brakes.");
   }
 }

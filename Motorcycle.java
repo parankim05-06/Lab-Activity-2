@@ -31,7 +31,7 @@ public class Motorcycle extends Vehicle implements Serviceable {
   public void moveRight(){
     System.out.println("The Motorcycle moves Right");
   }
-   public void service(){
-   System.out.print("Inspect tires and brakes.");
+  public void service(){
+    System.out.print("Inspect tires and brakes.");
   }
 }
